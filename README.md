@@ -24,3 +24,4 @@
 * [Font Awesome 4](https://fontawesome.com/v4/)
 * [TW Elements](https://tw-elements.com/)
 * [Exif.js](https://github.com/exif-js/exif-js)
+* [Chart.js](https://www.chartjs.org/)
