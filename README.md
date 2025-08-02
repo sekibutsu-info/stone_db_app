@@ -1,2 +1,2 @@
-# stone_db_app
-みんなで石仏調査
+# みんなで石仏調査
+[みんなで石仏調査](https://map.sekibutsu.info)のソースコードです。
