@@ -147,17 +147,17 @@ $(function(){
           text += '<tr><td align="center" class="text-base">' + point.properties.type.join(',') + '</td></tr>';
         }
         if( point.properties.address ) {
-          text += '<tr><td>' + point.properties.address[0];
+          text += '<tr><td>' + point.properties.address;
           if( point.properties.place ) {
-            text += '<br/>' + point.properties.place[0] + '</td></tr>';
+            text += '<br/>' + point.properties.place + '</td></tr>';
           } else {
             text += '</td></tr>';
           }
         }
         if( point.properties.built_year ) {
-          text += '<tr><td>' + point.properties.built_year[0];
+          text += '<tr><td>' + point.properties.built_year;
           if( point.properties.built_year_ce ) {
-            text += '&nbsp（' + point.properties.built_year_ce[0] + '）</td></tr>';
+            text += '&nbsp（' + point.properties.built_year_ce + '）</td></tr>';
           } else {
             text += '</td></tr>';
           }
@@ -895,7 +895,7 @@ $(function(){
           show_figure = true;
         } else {
           if( marker.feature.properties.figure ) {
-            if(selected_figures.includes(marker.feature.properties.figure[0])) {
+            if(selected_figures.includes(marker.feature.properties.figure)) {
               show_figure = true;
             }
           }
@@ -904,7 +904,7 @@ $(function(){
           show_principal = true;
         } else {
           if( marker.feature.properties.principal ) {
-            if(selected_principals.includes(marker.feature.properties.principal[0])) {
+            if(selected_principals.includes(marker.feature.properties.principal)) {
               show_principal = true;
             }
           }
